@@ -1,0 +1,13 @@
+test {
+    useJUnitPlatform()
+}
+
+jar {
+    enabled = false
+}
+
+dependencies {
+    implementation project(':sinbom-starter-calculator')
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-test'
+}

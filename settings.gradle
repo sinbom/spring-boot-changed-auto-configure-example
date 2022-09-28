@@ -1,0 +1,3 @@
+rootProject.name = 'sinbom-auto-configure-example'
+include 'sinbom-application'
+include 'sinbom-starter-calculator'
